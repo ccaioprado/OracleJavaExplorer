@@ -14,7 +14,9 @@ public class ShopApp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       System.out.println("Welcome to Duke Choice Shop!");
+        Costumer c1 = new Costumer();
+        c1.name = "Pinky";
+       System.out.println(c1.name);
     }
     
 }
